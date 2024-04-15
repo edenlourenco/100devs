@@ -6,10 +6,11 @@ function check() {
 
   //Conditionals go here
 
-  if (day === "segunda") {
-    console.log ("This is good")
+  if (day.localeCompare("Tuesday", undefined, { sensitivity: 'base' }) === 0 || day.localeCompare("Thursday", undefined, { sensitivity: 'base' }) === 0) {
+    alert("CLASS DAY");
+  } else if (day.localeCompare("Saturday", undefined, { sensitivity: 'base' }) === 0 || day.localeCompare("Sunday", undefined, { sensitivity: 'base' }) === 0) {
+    alert("Weekend");
+  } else {
+    alert("Boring");
   }
-  else
-   console.log ("It is boring")
-
 }
