@@ -6,5 +6,10 @@ function check() {
 
   //Conditionals go here
 
+  if (day === "segunda") {
+    console.log ("This is good")
+  }
+  else
+   console.log ("It is boring")
 
 }
