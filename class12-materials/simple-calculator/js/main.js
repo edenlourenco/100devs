@@ -24,3 +24,4 @@ function sub2() {
   total = total - 2
   document.querySelector('#placeToPutResult').innerHTML = total
 }
+
