@@ -20,11 +20,12 @@ img{
 }
 ul{
   width: 100px;
-  height: 200px;
+  height: auto;
   border: 3px solid black;
   margin: 0 auto;
   list-style: none;
   padding: 0;
+  
 }
 li{
   text-align: center;
